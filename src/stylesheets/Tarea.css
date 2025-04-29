@@ -51,3 +51,13 @@
   background-color: #5a01a7;
   text-decoration: line-through;
 }
+
+@media screen and (max-width: 768px) {
+  /* Estilos específicos para pantallas de hasta 768px */
+  .tarea-contenedor {
+    padding: 6px 12px 6px 16px
+  }
+  .tarea-texto {
+    font-size: 16px;
+  }
+}

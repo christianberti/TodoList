@@ -26,10 +26,29 @@
   font-size: 18px;
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 0 4px 4px 0;
+  border-radius: 4px;
   cursor: pointer;
   outline: none;
   background: #00471b;
   color: #fff;
   text-transform: capitalize;
+}
+
+.tarea-boton:hover {
+  background: #006e2a;
+}
+
+@media screen and (max-width: 768px) {
+  /* Estilos específicos para pantallas de hasta 768px */
+  .tarea-input {
+      width: 60vw;
+      font-size: 14px;
+      padding: 10px 24px 10px 12px;
+       /* Tamaño de fuente más pequeño para móviles */
+  }
+  .tarea-boton {
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
 }

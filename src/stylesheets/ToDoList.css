@@ -9,7 +9,7 @@ h1 {
 /* Listas de Tareas */
 
 .tareas-lista-principal {
-  width: 600px;
+  width: 70vw;
   min-height: 500px;
   background-color: #d0d0d5;
   padding: 25px;
@@ -22,4 +22,11 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Estilos específicos para pantallas de hasta 768px */
+  .tareas-lista-principal {
+      width: 90vw;
+  }
 }
